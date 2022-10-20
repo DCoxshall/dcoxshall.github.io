@@ -14,8 +14,15 @@ a {
 	color: black;
 }
 
+#voteDylan {
+	font-size: 60px;
+	text-align: center;
+	width: 100%;
+	-webkit-transform: rotate(-30deg);
+}
+
 #picContainer {
-	background: url("../public/dog.jpg") no-repeat;
+	background: url("../public/calvin.png") no-repeat;
 	background-size: contain;
 	width: 50%;
 	aspect-ratio: 1/1;
@@ -25,7 +32,7 @@ a {
 }
 
 #sidebarContainer {
-	background-color: lightgray;
+	background-color: rgb(234,106,69);
 	height: 100%;
 	width: 25%;
 	align-content: center;
@@ -34,9 +41,12 @@ a {
 }
 
 #mainContent {
-	background-color: blue;
+	background-color:rgb(86,186,226);
 	height: 100%;
 	width: 75%;
+	align-items: center;
+
+	display: flex;
 }
 
 #root {
