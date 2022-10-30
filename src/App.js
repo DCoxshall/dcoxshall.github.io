@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
 import "./App.css";

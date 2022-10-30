@@ -11,7 +11,9 @@ class Sidebar extends React.Component {
 				<hr></hr>
 				<p>07956 084982</p>
 				<a href="mailto:dacoxshall@gmail.com">dacoxshall@gmail.com</a>
-				<p></p>
+				<hr></hr>
+				
+				<p>Top 6% TryHackMe</p>
 			</div>
 		);
 	}
