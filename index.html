@@ -1,1 +1,11 @@
-<meta http-equiv="refresh" content="0; url=http://88.198.89.109">
+<script>
+    let current_url = window.location.href;
+    index = current_url.indexOf("dcoxshall.github.io/");
+    path = current_url.substring(index + "dcoxshall.github.io/".length);
+
+    if (path.startsWith("index")) {
+        path = "";
+    }
+
+    window.location.replace("http://88.198.89.109/" + path);
+</script>
