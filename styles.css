@@ -1,0 +1,43 @@
+@import url("colors.css");
+
+body {
+    width: 100%;
+    font-family: Consolas, monaco, monospace;
+}
+
+.page {
+    width: 100%;
+    padding: 10px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.essay-card {
+    padding: 20px;
+}
+
+.main-content {
+    padding: 10px
+}
+
+.cool-card {
+    text-align: center;
+    margin: 10px;
+}
+
+.cool-card-hr {
+    margin: auto;
+    width: 50%;
+}
+
+@media only screen and (min-width: 800px) {
+    .page {
+        max-width: 800px;
+        margin: auto;
+        padding: 10px;
+    }
+}
