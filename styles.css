@@ -1,4 +1,5 @@
 @import url("colors.css");
+@import url("reset.css");
 
 body {
     width: 100%;
@@ -20,8 +21,8 @@ body {
     padding: 20px;
 }
 
-.main-content {
-    padding: 10px
+.main-content p {
+    margin: 20px;
 }
 
 .cool-card {
