@@ -1,21 +1,36 @@
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #1f1f1f;
-        color: #cccccc;
-    }
+body {
+    background-color: #fbf7f5;
+    color: black;
 
-    hr {
-        border-color: #4f4f4f
-    }
-
-    a {
-        color: #9cdcfe
-    }
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    height: 100%;
 }
 
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: white;
-        color: black;
-    }
+#main-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#navbar {
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+    justify-content: right;
+    height: 10%;
+    background-color: #98ff98;
+    font-size: 20px;
+}
+
+#mugshot {
+    margin: 50px;
+}
+
+#personal_introduction {
+    margin: 50px;
 }
