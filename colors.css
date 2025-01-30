@@ -23,8 +23,25 @@ body {
     gap: 50px;
     justify-content: right;
     height: 10%;
-    background-color: #98ff98;
+    background-color: #4E5464;
     font-size: 20px;
+    color: #fbf7f5;
+}
+
+#navbar>a:link {
+    color: #fbf7f5;
+}
+
+#navbar>a:visited {
+    color: #98ff98;
+}
+
+#bottom-bar {
+    bottom: 0;
+    position: absolute;
+    height: 50px;
+    background-color: #4E5464;
+    width: 100%;
 }
 
 #mugshot {
