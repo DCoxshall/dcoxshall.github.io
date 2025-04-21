@@ -1,44 +1,73 @@
-@import url("colors.css");
-@import url("reset.css");
-
-body {
-    width: 100%;
-    font-family: Consolas, monaco, monospace;
-}
-
-.page {
-    width: 100%;
-    padding: 10px;
-}
-
-#navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.essay-card {
-    padding: 20px;
-}
-
-.main-content p {
-    margin: 20px;
-}
-
-.cool-card {
+/* Reset & basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: system-ui, sans-serif;
+    background-color: #fdfdfd;
+    color: #222;
+    line-height: 1.6;
+    padding: 1rem;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    margin-bottom: 2rem;
     text-align: center;
-    margin: 10px;
-}
-
-.cool-card-hr {
-    margin: auto;
-    width: 50%;
-}
-
-@media only screen and (min-width: 800px) {
-    .page {
-        max-width: 800px;
-        margin: auto;
-        padding: 10px;
-    }
-}
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  /* Links */
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 2rem;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+  }
+  
